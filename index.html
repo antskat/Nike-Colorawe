@@ -30,7 +30,10 @@
         <nav class="nav">
           <ul class="nav-list list">
             <li class="nav-list-item">
-              <a style="color: #fff" href="#" class="nav-link link"
+              <a
+                id="main-page"
+                onclick="mainScroll()"
+                class="text-active nav-link link"
                 >Main page</a
               >
             </li>
@@ -38,16 +41,24 @@
               <a href="#" class="nav-link link">Benefits</a>
             </li>
             <li class="nav-list-item">
-              <a href="#" class="nav-link link">Advantages</a>
+              <a id="advantages-page" onclick="advantagesScroll()" class="nav-link link"
+                >Advantages</a
+              >
             </li>
             <li class="nav-list-item">
-              <a href="#" class="nav-link link">Reviews</a>
+              <a id="reviews-page" onclick="reviewScroll()" class="nav-link link"
+                >Reviews</a
+              >
             </li>
             <li class="nav-list-item">
-              <a href="#" class="nav-link link">Contacts</a>
+              <a id="contacts-page" onclick="contactsScroll()" class="nav-link link"
+                >Contacts</a
+              >
             </li>
             <li class="nav-list-item">
-              <a href="#" class="nav-link link">Order</a>
+              <a id="order-page" onclick="orderScroll()" class="nav-link link"
+                >Order</a
+              >
             </li>
           </ul>
         </nav>
@@ -58,7 +69,7 @@
       </div>
     </header>
     <main>
-      <section class="hero-section">
+      <section id="main" class="hero-section">
         <div class="container">
           <img
             class="logo"
@@ -80,7 +91,7 @@
           <button class="hero-btn" type="button">Buy my Nike</button>
         </div>
       </section>
-      <section class="advantages">
+      <section id="advantages" class="advantages">
         <div class="container">
           <ul class="advantages-list list">
             <li class="advantages-list-item">
@@ -110,7 +121,7 @@
           </ul>
         </div>
       </section>
-      <section class="reviews">
+      <section id="review" class="reviews">
         <div class="container">
           <h2 class="reviews-title">Reviews</h2>
           <ul class="reviews-list list">
@@ -180,7 +191,7 @@
           </ul>
         </div>
       </section>
-      <section class="order">
+      <section id="order" class="order">
         <div class="container">
           <h2 class="order-title">Order</h2>
           <form class="order-form">
@@ -202,7 +213,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer id="contacts" class="footer">
       <div class="container">
         <div class="first-footer">
           <ul class="footer-questions">
@@ -247,5 +258,7 @@
         </div>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
+    p
   </body>
 </html>
