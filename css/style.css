@@ -126,11 +126,10 @@ img {
 
 .hero-section {
   padding-top: 94px;
-  padding-bottom: 283px;
+  padding-bottom: 183px;
   background-image: url(../images/bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
 }
 .text-logo {
   color: #fff;
