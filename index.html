@@ -15,6 +15,7 @@
       @import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@300;400&display=swap");
     </style>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./images/logo.png" type="image/x-icon" />
   </head>
   <body>
     <header class="header">
@@ -50,10 +51,10 @@
             </li>
           </ul>
         </nav>
-        <div class="lang-switch">
+        <ul class="lang-switch">
           <a href="#" class="switcher link">Ua</a>
           <a style="color: #fff" href="#" class="switcher link">Eng</a>
-        </div>
+        </ul>
       </div>
     </header>
     <main>
@@ -175,17 +176,14 @@
           <h2 class="order-title">Order</h2>
           <form class="order-form">
             <input
-              type="text"
+              type="email"
               class="order-input"
               placeholder="Wtite your email"
             />
             <button type="button" class="order-btn">Confirm</button>
             <input type="text" class="order-input" placeholder="Your country" />
-            <button type="button" class="order-btn">Confirm</button>
             <input type="text" class="order-input" placeholder="Your city" />
-            <button type="button" class="order-btn">Confirm</button>
             <input type="text" class="order-input" placeholder="Your address" />
-            <button type="button" class="order-btn">Confirm</button>
             <button type="submit" class="order-submit-btn">
               Order my Nike
             </button>
@@ -196,26 +194,32 @@
     <footer class="footer">
       <div class="container">
         <div class="first-footer">
-          <div class="footer-questions">
-            <p class="footer-question">Have a question?</p>
-            <p class="footer-question">Have a proposal for cooperation?</p>
-            <p class="footer-question">Adverting questions?</p>
-          </div>
-          <div class="footer-links">
-            <a href="mailto:ColoRawe_support@gmail.com" class="footer-link link"
+          <ul class="footer-questions">
+            <li class="footer-question">Have a question?</li>
+            <li class="footer-question">Have a proposal for cooperation?</li>
+            <li class="footer-question">Adverting questions?</li>
+          </ul>
+          <ul class="footer-links">
+            <li class="footer-links-item">
+                <a href="mailto:ColoRawe_support@gmail.com" class="footer-link link"
               >ColoRawe_support@gmail.com</a
             >
-            <a
+            </li>
+            <li class="footer-links-item">
+                <a
               href="mailto:ColoRawe_Cooperation@gmail.com"
               class="footer-link link"
               >ColoRawe_Cooperation@gmail.com</a
             >
-            <a
+            </li>
+            <li class="footer-links-item">
+                <a
               href="mailto:ColoRawe_Advertising@gmail.com"
               class="footer-link link"
               >ColoRawe_Advertising@gmail.com</a
             >
-          </div>
+            </li>
+          </ul>
         </div>
         <hr />
         <div class="second-footer">

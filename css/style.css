@@ -116,9 +116,7 @@ img {
   transition: all 0.3s;
 }
 .nav-link:hover,
-.nav-link:focus,
-.switcher:hover,
-.switcher:focus {
+.switcher:hover {
   color: #fff;
 }
 .lang-switch {
@@ -128,7 +126,7 @@ img {
 
 .hero-section {
   padding-top: 94px;
-  padding-bottom: 183px;
+  padding-bottom: 283px;
   background-image: url(../images/bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -164,11 +162,11 @@ img {
 .hero-text {
   color: #fff;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: normal;
   position: relative;
   left: 10px;
-  top: -70px;
+  top: -60px;
 }
 .hero-btn {
   background-color: var(--secondary-color);
@@ -181,6 +179,8 @@ img {
   font-weight: 400;
   line-height: normal;
   transition: all .3s;
+  position: relative;
+  top: -20px;
 }
 .hero-btn:hover {
     background-color: #5c2081;
