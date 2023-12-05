@@ -267,6 +267,7 @@ img {
 }
 .reviews-list {
   display: flex;
+  justify-content: center;
   gap: 93px;
 }
 .reviews-list-item {
@@ -281,7 +282,7 @@ img {
     #cc5ec2 100%
   );
   box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
-  flex-basis: calc((100% - 186px) / 3);
+  flex-basis:255px;
 }
 .reviews-list-item:nth-child(2) {
   background: linear-gradient(
@@ -393,7 +394,7 @@ img {
   position: absolute;
   padding: 8px 70px;
   right: 30.6%;
-  top: 223%;
+  top: 239.5%;
   color: #8d8d8d;
   font-family: Roboto;
   font-size: 28px;
