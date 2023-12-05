@@ -12,6 +12,9 @@
       referrerpolicy="no-referrer"
     />
     <style>
+      html {
+        scroll-behavior: smooth;
+      }
       @import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@300;400&display=swap");
     </style>
     <link rel="stylesheet" href="./css/style.css" />
@@ -30,41 +33,42 @@
         <nav class="nav">
           <ul class="nav-list list">
             <li class="nav-list-item">
-              <a
-                id="main-page"
-                onclick="mainScroll()"
-                class="text-active nav-link link"
+              <a id="main-page" href="#main" class="text-active nav-link link"
                 >Main page</a
               >
             </li>
             <li class="nav-list-item">
-              <a href="#" class="nav-link link">Benefits</a>
+              <a href="#advantages" id="benefits-page" class="nav-link link"
+                >Benefits</a
+              >
             </li>
             <li class="nav-list-item">
-              <a id="advantages-page" onclick="advantagesScroll()" class="nav-link link"
+              <a href="#advantages" id="advantages-page" class="nav-link link"
                 >Advantages</a
               >
             </li>
             <li class="nav-list-item">
-              <a id="reviews-page" onclick="reviewScroll()" class="nav-link link"
+              <a id="reviews-page" href="#review" class="nav-link link"
                 >Reviews</a
               >
             </li>
             <li class="nav-list-item">
-              <a id="contacts-page" onclick="contactsScroll()" class="nav-link link"
+              <a href="#contacts" id="contacts-page" class="nav-link link"
                 >Contacts</a
               >
             </li>
             <li class="nav-list-item">
-              <a id="order-page" onclick="orderScroll()" class="nav-link link"
-                >Order</a
-              >
+              <a id="order-page" href="#order" class="nav-link link">Order</a>
             </li>
           </ul>
         </nav>
-        <ul class="lang-switch">
-          <a href="#" class="switcher link">Ua</a>
-          <a style="color: #fff" href="#" class="switcher link">Eng</a>
+        <ul class="lang-switch list">
+          <li class="lang-switch-item">
+            <a href="#" class="switcher link">Ua</a>
+          </li>
+          <li class="lang-switch-item">
+            <a href="#" class="switcher link">Eng</a>
+          </li>
         </ul>
       </div>
     </header>
@@ -259,6 +263,5 @@
       </div>
     </footer>
     <script src="./js/main.js"></script>
-    p
   </body>
 </html>
