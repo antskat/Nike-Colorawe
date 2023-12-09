@@ -406,7 +406,6 @@ img {
   display: none;
 }
 .order-btn:hover {
-  border: 1px solid #8d8d8d;
   cursor: pointer;
   transition: all 0;
 }
