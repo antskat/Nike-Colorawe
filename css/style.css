@@ -221,7 +221,7 @@ img {
 }
 .advantages-list {
   display: flex;
-  border: 5px solid var(--accent-color);
+  border: 5px solid #fff;
   padding: 25px 0;
   justify-content: space-around;
 }
