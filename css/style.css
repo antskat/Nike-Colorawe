@@ -449,6 +449,11 @@ img {
 }
 .footer-link {
   text-decoration: underline;
+  transition: all 0.3s;
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: #8d8d8d;
 }
 hr {
   border: none;
