@@ -230,7 +230,7 @@ img {
   flex-direction: column;
   gap: 5px;
   padding: 0 50px;
-  border-right: 1px solid var(--accent-color);
+  border-right: 1px solid #fff;
   text-align: center;
 }
 .advantages-list-item:nth-child(2) {
