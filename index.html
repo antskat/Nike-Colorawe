@@ -64,10 +64,10 @@
         </nav>
         <ul class="lang-switch list">
           <li class="lang-switch-item">
-            <a href="#" class="switcher link">Ua</a>
+            <a id="lang-ua" class="switcher link">Ua</a>
           </li>
           <li class="lang-switch-item">
-            <a href="#" class="switcher link text-active">Eng</a>
+            <a id="lang-eng" class="switcher link lang-active">Eng</a>
           </li>
         </ul>
       </div>
@@ -84,22 +84,26 @@
           />
           <p class="text-logo">C&R</p>
           <h1 class="hero-title">ColoRawe</h1>
-          <h2 class="hero-subtitle">Your dream Nike</h2>
-          <p class="hero-text">
+          <h2 id="hero-subtitle" class="hero-subtitle">Your dream Nike</h2>
+          <p id="hero-text" class="hero-text">
             On this site you can find custom Nike sneakers of your dreams.
             <br />
             The original company caт`t create such beautiful <br />
             sneakers as we do. <br />
             Good luck finding your way in the world of custom sneakers.
           </p>
-          <button class="hero-btn" type="button">Buy my Nike</button>
+          <button id="hero-btn" class="hero-btn" type="button">
+            Buy my Nike
+          </button>
         </div>
       </section>
       <section id="advantages" class="advantages">
         <div class="container">
           <ul class="advantages-list list">
             <li class="advantages-list-item">
-              <h3 class="advantages-list-title">Premium Quality</h3>
+              <h3 id="advantages-title-1" class="advantages-list-title">
+                Premium Quality
+              </h3>
               <img
                 src="./images/stars.png"
                 alt="stars"
@@ -112,10 +116,14 @@
                 alt="paints"
                 class="advantages-list-img"
               />
-              <h3 class="advantages-list-title">Indelible paint</h3>
+              <h3 id="advantages-title-2" class="advantages-list-title">
+                Indelible paint
+              </h3>
             </li>
             <li class="advantages-list-item">
-              <h3 class="advantages-list-title">Fast shipping</h3>
+              <h3 id="advantages-title-3" class="advantages-list-title">
+                Fast shipping
+              </h3>
               <img
                 src="./images/bus.png"
                 alt="bus"
@@ -127,14 +135,16 @@
       </section>
       <section id="review" class="reviews">
         <div class="container">
-          <h2 class="reviews-title">Reviews</h2>
+          <h2 id="reviews-title" class="reviews-title">Reviews</h2>
           <ul class="reviews-list list">
             <li class="reviews-list-item">
-              <p class="reviews-list-text">
-                Sneakers are very comfortable and well painted, nothing has worn
-                off in a year.
-              </p>
-              <p class="reviews-date">25.11</p>
+              <div class="reviews-text-container">
+                <p id="reviews-text-1" class="reviews-list-text">
+                  Sneakers are very comfortable and well painted, nothing has
+                  worn off in a year.
+                </p>
+                <p class="reviews-date">25.11</p>
+              </div>
               <div class="user-container">
                 <img
                   src="./images/john-avatar.jpg"
@@ -144,17 +154,19 @@
                   height="31"
                 />
                 <div class="user-text-container">
-                  <p class="username">John Teylor</p>
-                  <p class="reg-date">With us from 2018</p>
+                  <p id="username-1" class="username">John Teylor</p>
+                  <p id="reg-date-1" class="reg-date">With us from 2018</p>
                 </div>
               </div>
             </li>
             <li class="reviews-list-item">
-              <p class="reviews-list-text">
-                I'm very happy with this color scheme. They match all my
-                clothes.
-              </p>
-              <p class="reviews-date">05.01</p>
+              <div class="reviews-text-container">
+                <p id="reviews-text-2" class="reviews-list-text">
+                  I'm very happy with this color scheme. They match all my
+                  clothes.
+                </p>
+                <p class="reviews-date">05.01</p>
+              </div>
               <div class="user-container">
                 <img
                   src="./images/elizabeth-avatar.jpg"
@@ -164,17 +176,19 @@
                   height="31"
                 />
                 <div class="user-text-container">
-                  <p class="username">Elizabeth Garsia</p>
-                  <p class="reg-date">With us from 2020</p>
+                  <p id="username-2" class="username">Elizabeth Garsia</p>
+                  <p id="reg-date-2" class="reg-date">With us from 2020</p>
                 </div>
               </div>
             </li>
             <li class="reviews-list-item">
-              <p class="reviews-list-text">
-                Just right if you need to go to a party. I use them actively,
-                the paint is super.
-              </p>
-              <p class="reviews-date">18.06</p>
+              <div class="reviews-text-container">
+                <p id="reviews-text-3" class="reviews-list-text">
+                  Just right if you need to go to a party. I use them actively,
+                  the paint is super.
+                </p>
+                <p class="reviews-date">18.06</p>
+              </div>
               <div class="user-container">
                 <img
                   src="./images/tom-avatar.jpg"
@@ -184,8 +198,8 @@
                   height="31"
                 />
                 <div class="user-text-container">
-                  <p class="username">Tom Maquare</p>
-                  <p class="reg-date">With us from 2019</p>
+                  <p id="username-3" class="username">Tom Maquare</p>
+                  <p id="reg-date-3" class="reg-date">With us from 2019</p>
                 </div>
               </div>
             </li>
@@ -194,20 +208,42 @@
       </section>
       <section id="order" class="order">
         <div class="container">
-          <h2 class="order-title">Order</h2>
+          <h2 id="order-title" class="order-title">Order</h2>
           <form class="order-form">
             <div class="email-input">
               <input
+                id="your-email"
                 type="email"
                 class="order-input"
                 placeholder="Wtite your email"
               />
-              <button type="button" class="order-btn">Confirm</button>
+              <button id="order-btn" type="button" class="order-btn">
+                Confirm
+              </button>
             </div>
-            <input type="text" class="order-input" placeholder="Your country" />
-            <input type="text" class="order-input" placeholder="Your city" />
-            <input type="text" class="order-input" placeholder="Your address" />
-            <button type="submit" class="order-submit-btn">
+            <input
+              id="your-country"
+              type="text"
+              class="order-input"
+              placeholder="Your country"
+            />
+            <input
+              id="your-city"
+              type="text"
+              class="order-input"
+              placeholder="Your city"
+            />
+            <input
+              id="your-address"
+              type="text"
+              class="order-input"
+              placeholder="Your address"
+            />
+            <button
+              id="order-submit-btn"
+              type="submit"
+              class="order-submit-btn"
+            >
               Order my Nike
             </button>
           </form>
@@ -218,13 +254,15 @@
       <div class="container">
         <ul class="footer-questions list">
           <li class="footer-question">
-            <p class="footer-questions-text">Have a question?</p>
+            <p id="footer-questions-text-1" class="footer-questions-text">
+              Have a question?
+            </p>
             <a href="mailto:ColoRawe_support@gmail.com" class="footer-link link"
               >ColoRawe_support@gmail.com</a
             >
           </li>
           <li class="footer-question">
-            <p class="footer-questions-text">
+            <p id="footer-questions-text-2" class="footer-questions-text">
               Have a proposal for cooperation?
             </p>
             <a
@@ -234,7 +272,9 @@
             >
           </li>
           <li class="footer-question">
-            <p class="footer-questions-text">Adverting questions?</p>
+            <p id="footer-questions-text-3" class="footer-questions-text">
+              Advertising questions?
+            </p>
             <a
               href="mailto:ColoRawe_Advertising@gmail.com"
               class="footer-link link"
@@ -244,17 +284,26 @@
         </ul>
         <hr />
         <div class="second-footer">
-          <p class="copyright-text">
-            2022 ColoRawe @All rights reserved <br />
-            United States
-          </p>
+          <div class="copyright-container">
+            <p id="copyright-text" class="copyright-text">
+              2022 ColoRawe @All rights reserved
+            </p>
+            <p id="copyright-us-text" class="copyright-us-text">United States</p>
+          </div>
           <div class="logo-container">
-            <img class="logo" src="./images/logo.png" alt="logo" />
-            <p class="text-logo">C&R</p>
+            <img
+              class="logo"
+              src="./images/logo.png"
+              alt="logo"
+              width="108"
+              height="81"
+            />
+            <p class="text-logo footer-text-logo">C&R</p>
           </div>
         </div>
       </div>
     </footer>
     <script src="./js/main.js"></script>
+    <script src="./js/lang.js"></script>
   </body>
 </html>
