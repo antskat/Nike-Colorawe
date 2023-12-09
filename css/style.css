@@ -223,11 +223,13 @@ img {
   display: flex;
   border: 5px solid var(--accent-color);
   padding: 25px 0;
-  justify-content: space-around;
+  justify-content: center;
 }
 .advantages-list-item {
   display: flex;
+  width: 234px;
   flex-direction: column;
+  justify-content: space-between;
   gap: 5px;
   padding: 0 50px;
   border-right: 1px solid #fff;
@@ -237,7 +239,7 @@ img {
   padding: 0 95px;
 }
 .advantages-list-item:last-child {
-  border-right: none;
+  border-right: none
 }
 .advantages-list-title,
 .reviews-title,
