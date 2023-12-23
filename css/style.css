@@ -381,6 +381,12 @@ img {
   line-height: normal;
   transition: all 0.2s;
 }
+.order-input::placeholder {
+  color: #959595;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
 .order-input:hover,
 .order-input:focus {
   outline: none;
@@ -420,7 +426,8 @@ img {
   padding: 8.6px 70px;
 }
 .email-input:hover .order-btn,
-.email-input:active .order-btn {
+.email-input:active .order-btn,
+.email-input input:focus + .order-btn {
   display: block;
 }
 .order-submit-btn {
